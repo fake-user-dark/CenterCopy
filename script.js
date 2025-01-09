@@ -15,19 +15,23 @@ function bli_medlem() {
 
 let get_kallor_btn = document.getElementById("kallorr")
 let turnss = 0
+
+let svg_plus_minuss = document.getElementById("svg_plus_minus")
 let neznam_id = document.getElementById("neznam")
 function dropDown_kallor() {
 
-
+    console.log(svg_plus_minuss)
 
     if (turnss === 0) {
 
        let create_link = document.createElement("a")
        create_link.setAttribute("id", "get_hidden")
-       create_link.setAttribute("href", "https//:Centerpartiet.se")
+       create_link.setAttribute("href", "https://www.centerpartiet.se/")
        create_link.innerText = "Centerpartiet.se"
        get_kallor_btn.style.zIndex = "100000"
        get_kallor_btn.style.paddingBottom = "20%"
+       svg_plus_minuss.style.position = 'relative'; 
+       svg_plus_minuss.style.transform = 'rotate(45deg)'
 
        neznam_id.appendChild(create_link)
        turnss = 1
@@ -37,6 +41,7 @@ function dropDown_kallor() {
     } else {
 
         let removee = document.getElementById("get_hidden")
+        svg_plus_minuss.style.transform = 'rotate(0deg)'
         removee.remove()
         get_kallor_btn.style.paddingBottom = "0%"
         turnss = 0
