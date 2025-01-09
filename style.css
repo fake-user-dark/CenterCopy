@@ -661,3 +661,9 @@ div #imgs_preview {
     position: absolute;
     transform: translate(-50%, -220%);
 }
+
+#svg_plus_minus {
+
+    transition: 0.3s;
+
+}
