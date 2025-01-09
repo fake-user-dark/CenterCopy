@@ -1,0 +1,663 @@
+* {
+
+    scroll-behavior: smooth;
+
+}
+
+header {
+
+    background-color: #183e2f;
+    display: flex;
+    height: 100px;
+    align-items: center;
+    color: white;
+    margin: 0;    
+}
+a {
+
+    text-decoration: none;
+
+}
+
+#logo_main {
+
+    text-decoration: none;
+    color: white;
+    width: 26.4%;
+    display: flex;
+    align-items: center;
+
+
+}
+
+header img {
+
+    flex-grow: 5;
+    height: 60px;
+    cursor: pointer;
+
+}
+
+header div{
+
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 30%;
+    cursor: pointer;
+
+
+
+}
+
+header div p {
+
+    margin-right: 5%;
+
+    
+}
+
+header div p a {
+
+    text-decoration: none;
+    color: white;
+    transition: 300ms;  
+
+}
+
+header div p a:hover {
+
+    color: gray;
+
+}
+
+
+#menu_slide {
+
+    background-color: #044c2c;
+    height: 400px;
+    margin: 0;
+    padding: 0;
+
+
+}
+
+#bilder_annosn {
+
+    height: 100%;
+    width: 100%;
+    background-size: 100% 500px; 
+    background-repeat: no-repeat;
+    color: white;
+    transition: 500ms;
+
+}
+
+#bilder_annosn h1 {
+
+    padding: 4%;
+    padding-left: 10%;
+
+}
+
+#bilder_annosn p {
+
+    margin-top: -3%;
+    width: 50%;
+    margin-left: 10%;
+    backdrop-filter: blur(2px);
+
+}
+
+#arrows {
+
+    height: 100px;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    transform: translate(0px, -250%);
+    margin: 1%;
+
+}
+
+#arrows button {
+
+    width: 100px;
+    border-radius: 50%;
+    border: none;
+    transition: 300ms;
+
+}
+
+#arrows button:hover {
+
+    background-color: #519778;
+
+}
+
+#balls {
+
+
+    display: flex;
+    justify-content: center;
+    transform: translate(0px, -100%);
+
+} 
+
+#balls div {
+    
+    background-color: #183e2f;
+    border: white solid 2px;
+    border-radius: 90%;
+    width: 90px;
+    height: 90px;
+    scale: 1.8;
+    margin: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 300ms;
+    cursor: pointer;
+    -webkit-box-shadow: -1px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: -1px 2px 2px 0px rgba(0,0,0,0.55);
+
+
+}
+
+#balls div h1 {
+
+    width: 100%;
+    color: white;
+    font-size: 70%;
+    text-align: center;
+
+}
+
+#balls div a {
+
+    justify-content: center;
+
+
+}
+
+#balls div:hover {
+
+    scale: 2;
+
+}
+
+#divider {
+
+    display: flex;
+    align-items: center;
+    transform: translate(0px, -480%);
+
+}
+
+#divider h3 {
+
+    font-size: 120%;
+
+}
+
+#divider div {
+
+    background-color: #183e2f;
+    width: 80%;
+    height: 2px;
+    margin: 2%;
+
+}
+
+#news li {
+
+    list-style-type: none;
+    padding: 1%;  /* Optional: removes the default padding */
+    margin: 0; 
+
+    transform: translate(0px, -120%);
+    padding-bottom: 20%;
+    border-bottom: #183e2f solid 4px;
+    background-color: #4a9771;
+    margin-top: 5%;
+    height: 110px;
+    cursor: pointer;
+    color: white;
+
+}
+
+#news li h4 {
+
+    font-size: 120%;
+    opacity: 80%;
+
+}
+
+#nera_dig {
+
+    background-color: #183e2f;
+    margin-top: 60%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+
+}
+
+#nera_dig h1{
+
+    font-size: 300%;
+    font-weight: 700;
+
+}
+
+#nera_dig button {
+
+    margin-top: 1%;
+    border-radius: 5px;
+    height: 10%;
+    width: 25%;
+    border: none;
+    color:#183e2f;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    padding: 1%;
+    transition: 200ms;
+
+}
+
+#nera_dig svg {
+
+    margin-right: 8%;
+
+}
+
+#nera_dig button:hover {
+
+    background-color:#4a9771;
+    color: white;
+
+
+}
+
+#muharrem_centerpartist {
+
+    height: 300px;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 3%;
+
+
+}
+
+#muharrem_centerpartist #img {
+
+    background-image: url("https://www.centerpartiet.se/images/200.6e31cb7b19177c12a897c9/1725628539265/Murre%20D%C3%A4rf%C3%B6r%20centerpartist.jpg");
+    background-size: 100% 100%;
+    width: 80%;
+    height: 150%;
+
+
+}
+
+#muharrem_centerpartist p {
+
+    width: 80%;
+
+}
+
+footer {
+    margin-top: 10%;
+    height: 400px;
+    background-color: #183e2f;
+    display: block;
+
+    
+
+
+}
+
+footer #logo {
+
+    display: flex;
+
+    justify-content: space-evenly;
+
+}
+
+footer #logo div {
+
+    margin: 2%;
+    text-align:center;
+    color: white;
+    width: 15%;
+
+}
+
+footer #logo div p {
+
+    margin-top: 5%;
+    display: block;
+    width: 100%;
+    border-bottom: #4a9771 solid 2px;
+    transition: 200ms;
+    font-weight: 400;
+
+}
+
+footer #logo div p:hover {
+
+    background-color: #4a9771;
+
+
+}
+
+#credits {
+
+    display: flex;
+    color: white;
+    background-color: #519778;
+
+    display: flex;
+    align-items: center;
+    font-size: 55%;
+    justify-content: center;
+    
+
+
+}
+
+#credits a {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    opacity: 60%;
+
+}
+
+#credits h1 {
+
+    font-weight: 300;
+    font-size: 200%;
+
+}
+
+/* 
+
+vart_parti.html
+
+Some elements are used from the index.html styling
+
+*/
+
+#banner_img {
+
+    background-color: #183e2f;
+    display: flex;
+    padding: 2%;
+    color: white;
+
+}
+
+#kort_hisotira {
+
+    width: 50%;
+
+}
+
+#vor_histoira {
+
+    display: flex;
+    align-items: center;
+
+}
+
+#vor_histoira #tag_banner {
+
+    background-color: #044c2c;
+    border: white solid 3px;
+    width: 30%;
+    height: 100px;
+    text-align: center;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-box-shadow: -1px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.75);
+
+}
+
+#seperator {
+
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+
+}
+
+#seperator #tag_banner {
+
+    background-color: #044c2c;
+    border: white solid 3px;
+    width: 30%;
+    height: 100px;
+    text-align: center;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-box-shadow: -1px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.75);
+
+}
+
+#img_frame {
+
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 440px;
+    height: 300px;
+    margin-left: 5%;
+    transform: rotate(-10deg);
+
+}
+#img_histori {
+
+    margin: 5%;
+    background-color: #4a9771;
+    width: 90%;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#historia_p {
+
+    width: 70%;
+    padding: 2%;
+
+}
+
+#ideologier {
+    margin-top: 5%;
+    display: flex;
+    font-weight: 600;
+    font-size: 120%;
+    background-color:#044c2c;
+    color: white;
+
+}
+
+#ideologier #img_frame {
+
+    transform: rotate(5deg);
+
+}
+#ideologier #img_histori {
+
+    transform: translate(0px ,2%);
+
+}
+
+/* 
+PARTIELEDARE.HTML
+
+some elements are being used from the main page
+
+*/
+
+#dataTB {
+
+    display: flex;
+    justify-content: left;
+
+}
+
+#tabel_info {
+
+
+    background-color: rgb(210, 210, 210);
+    width: 70%;
+    padding: 2%;
+    border: 1px solid rgb(170, 168, 168) ;
+
+
+}
+
+#tabel_info li {
+
+    list-style-type: "→";
+    padding: 1%;
+
+
+}
+
+#kort_hisotira p {
+
+    border-left:#044c2c solid 5px;
+    padding: 2%;
+
+}
+
+/* 
+politisk fråga
+
+*/
+
+
+#banner_imgg {
+
+
+    background: rgba(0,0,0 ,0.45);
+    display: flex;
+    padding: 2%;
+    color: white;
+    height: 100vh;
+    background-blend-mode: darken;
+
+
+}
+
+ul {
+
+    backdrop-filter: blur(2px);
+    list-style-type: "✓";
+
+}
+
+
+li {
+
+    margin: 1%;
+
+}
+
+#vor_historiaa {
+
+    
+    display: flex;
+
+    align-items: stretch;
+    
+
+}
+
+#tag_bannerrr {
+
+
+
+    width: 30%;
+    color:white;
+    margin: 1.1%;
+
+
+
+}
+
+#tag_bannerrr div {
+    background-color: #183e2f;
+    width: 100%;
+    height: 24.25%;
+    margin-bottom: 4%;
+    background-size: cover;
+    transition: 500ms, background-blend-mode 500ms, background-size 500ms; 
+    
+
+    
+}
+
+#tag_bannerrr div #subtitle{
+
+    transform: translate(0px, -15%);
+    padding: 2%;
+    height: 25% ;
+    background-color: transparent;
+
+}
+
+div #imgs_preview {
+
+    height: 70%;
+
+}
+
+#tag_bannerrr div div:hover {
+
+
+    height: 60%;
+
+
+
+
+
+}
+
+@media (max-width:1160px) {
+
+    body {
+
+        display: block;
+
+    }
+
+
+    
+
+}
+
+#get_hidden {
+
+    position: absolute;
+    transform: translate(-50%, -220%);
+}
